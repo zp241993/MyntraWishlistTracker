@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 320px;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #ff3f6c;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #ff3f6c;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#status {
+  margin-top: 10px;
+  font-size: 14px;
+}
