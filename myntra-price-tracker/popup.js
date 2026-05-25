@@ -16,6 +16,21 @@ const status = document.getElementById(
   "status"
 );
 
+const historyButton =
+  document.getElementById(
+    "historyButton"
+  );
+
+historyButton.addEventListener(
+  "click",
+  () => {
+    chrome.tabs.create({
+      url: "history.html"
+    });
+
+  }
+);
+
 // Scan wishlist
 scanButton.addEventListener("click", () => {
 
